@@ -23,6 +23,7 @@ class UserManager(BaseUserManager):
 
         return user
 
+
 class User(AbstractBaseUser, PermissionsMixin):
     """Custom user model that supports email instead of username"""
 
